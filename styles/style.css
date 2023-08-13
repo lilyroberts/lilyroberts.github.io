@@ -163,9 +163,9 @@ main {
 
 .bokeh-box {
   position: relative;
-  width: 60%;
+  width: 80%;
   /* height: 50%; */
-  /* max-width: 900px; */
+  max-width: 1000px;
   /* width: fit-content;
   height: fit-content; */
   margin: auto;
