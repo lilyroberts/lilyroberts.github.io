@@ -163,8 +163,9 @@ main {
 
 .bokeh-box {
   position: relative;
-  width: fit-content;
-  max-width: 800px;
+  width: 60%;
+  /* height: 50%; */
+  /* max-width: 900px; */
   /* width: fit-content;
   height: fit-content; */
   margin: auto;
@@ -202,7 +203,10 @@ main {
 
 .bokeh-widget {
   width: 100%;
+  margin: auto;
   padding: auto;
   /* padding-top: 1rem; */
   font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 105%;
 }
