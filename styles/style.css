@@ -95,6 +95,7 @@ main {
 .full-page-box {
   position: relative;
   width: fit-content;
+  max-width: 800px;
   /* width: fit-content;
   height: fit-content; */
   margin: auto;
@@ -103,12 +104,20 @@ main {
   border: 2px solid black;
   color: black;
   /* padding: 1rem 1.5rem 1rem 1.5rem; */
-  display: inline-block;
+  display: flexbox;
   box-shadow: 0.5rem 0.5rem black;
 }
 
 .full-page-content {
   width: 100%;
+}
+
+.full-page-content img {
+  border-radius: 50%;
+  float: left;
+  margin: 5px;
+  max-width: 25%;
+  height: auto;
 }
 
 .full-page-box h1 {
@@ -126,8 +135,69 @@ main {
   /* font-size: 150%; */
   font-family: 'PlayfairDisplay';
   text-align: center;
+  font-size: 110%;
+  font-weight: 400;
 }
 
 .full-page-box img {
   width: 100%;
+}
+
+.bk-plot-wrapper table {
+  margin: 0 auto;
+}
+
+.bokeh-content {
+  width: 100%;
+}
+
+.bokeh-box {
+  position: relative;
+  width: fit-content;
+  /* width: fit-content;
+  height: fit-content; */
+  /* margin: auto;
+  padding: 1rem; */
+  background-color: blanchedalmond;
+  border: 2px solid black;
+  color: black;
+  /* padding: 1rem 1.5rem 1rem 1.5rem; */
+  display: flexbox;
+  box-shadow: 0.5rem 0.5rem black;
+  margin: auto;
+  /* margin-top: 1rem; */
+  margin-bottom: 1rem;
+  padding: 1rem; 
+}
+
+.bokeh-box h1 {
+  /* letter-spacing: 1px; */
+  font-weight: 400;
+  font-size: 150%;
+  font-family: 'PlayfairDisplay';
+  /* text-decoration: none; */
+  /* text-transform: uppercase; */
+  text-align: center;
+}
+
+.bokeh-box p {
+  /* font-weight: 400; */
+  /* font-size: 150%; */
+  font-family: 'Georgia';
+  font-style: italic;
+  text-align: center;
+  font-weight: 400;
+}
+
+.bokeh-box div {
+  width: 100%;
+  /* margin: 0px auto;
+  margin-bottom: 2rem; */
+}
+
+.bokeh-widget {
+  width: 100%;
+  padding: auto;
+  /* padding-top: 1rem; */
+  font-family: 'Playfair Display';
 }
