@@ -112,14 +112,6 @@ main {
   width: 100%;
 }
 
-.full-page-content img {
-  border-radius: 50%;
-  float: left;
-  margin: 5px;
-  max-width: 25%;
-  height: auto;
-}
-
 .full-page-box h1 {
   /* letter-spacing: 1px; */
   font-weight: 400;
@@ -141,6 +133,11 @@ main {
 
 .full-page-box img {
   width: 100%;
+  border-radius: 50%;
+  float: left;
+  margin: 5px;
+  max-width: 25%;
+  height: auto;
 }
 
 .bk-plot-wrapper table {
