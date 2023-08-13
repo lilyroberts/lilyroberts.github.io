@@ -169,6 +169,7 @@ main {
   /* width: fit-content;
   height: fit-content; */
   margin: auto;
+  margin-bottom: 1rem;
   padding: 1rem;
   background-color: blanchedalmond;
   border: 2px solid black;
