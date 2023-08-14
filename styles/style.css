@@ -109,7 +109,14 @@ main {
 }
 
 .full-page-content {
-  width: 100%;
+  width: 98%;
+}
+
+.full-page-content hr {
+  /* color: black; */
+  border: 0.02rem solid black;
+  width: 85%;
+  /* width: 1px; */
 }
 
 .full-page-content h1 {
@@ -125,7 +132,7 @@ main {
 .full-page-content p {
   /* font-weight: 400; */
   /* font-size: 150%; */
-  font-family: 'PlayfairDisplay';
+  font-family: 'Georgia';
   text-align: center;
   font-size: 110%;
   font-weight: 400;
@@ -179,6 +186,13 @@ main {
   box-shadow: 0.5rem 0.5rem black;
 }
 
+.bokeh-box hr {
+  /* color: black; */
+  border: 0.02rem solid black;
+  width: 85%;
+  /* width: 1px; */
+}
+
 .bokeh-box h1 {
   /* letter-spacing: 1px; */
   font-weight: 400;
@@ -207,7 +221,93 @@ main {
   margin: auto;
   padding: auto;
   /* padding-top: 1rem; */
-  font-family: 'Playfair Display';
+  font-family: 'Georgia';
   font-weight: 400;
   font-size: 105%;
 }
+/* em|ex|ch|ic|rem|vw|vh|vi|vb|vmin|vmax|cm|mm|q|in|pc|pt|px */
+
+/* The slider itself */
+.slider {
+  /* -webkit-appearance: none;  Override default CSS styles */
+  /* appearance: none; */
+  width: 100%; /* Full-width */
+  /* background: #d3d3d3;  */
+  /* color: burlywood; */
+  /* bar-color: black; */
+  /* background-color: burlywood; */
+}
+
+/*
+*
+* SLIDER
+*
+* https://github.com/birdsarah/bokeh-miscellany/blob/master/old/slider_example/assets/styles.css
+*/  
+
+.plotdiv input,
+.plotdiv label {
+    display: none;
+}
+
+
+.bk-slider-horizontal {
+  width: 705px;
+  height: 50px;
+  min-width: 200px;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+
+.bk-ui-slider {
+    position: relative;
+    text-align: left;
+}
+
+.bk-ui-widget {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+.bk-ui-widget-content {
+    border: 1px solid #aaaaaa;
+    background: #ffffff;
+    color: #222222;
+}
+.bk-ui-state-default {
+    border: 1px solid #7c7e71;
+    background: #eeeeee;
+    font-weight: normal;
+}
+
+.bk-ui-slider-horizontal {
+    height: .8em;
+}
+
+.slider .bk-ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    top: -0.6em;
+    margin-left: -0.5em;
+    width: 1.0em;
+    height: 1.8em;
+    cursor: default;
+    -ms-touch-action: none;
+    touch-action: none;
+    border-radius: 2px;
+}
+
+.bk-ui-slider .bk-ui-slider-handle:focus {
+    outline: none;
+}
+
+
+/* .slider input[type="slider"] {
+  width: 420px;
+  height: 2px;
+  background: black;
+  border: none;
+  outline: none;}  */
+/* 
+body {background: white);}.slider {position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 500px;height: 60px;padding: 30px;padding-left: 40px;background: #fcfcfc;border-radius: 20px;display: flex;align-items: center;box-shadow: 0px 15px 40px #7E6D5766;}.slider label {font-size: 24px;font-weight: 400;font-family: Open Sans;padding-left: 10px;color: black;} */
+   
