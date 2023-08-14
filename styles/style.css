@@ -7,9 +7,11 @@ body {
 
 footer {
   /* position: fixed; */
-  position: static;
-  color: blanchedalmond;
-  bottom: 0;
+  position: sticky;
+  color: antiquewhite;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  top: 100vh;
   text-align: center;
 }
 
@@ -139,13 +141,25 @@ main {
 }
 
 .full-page-content img {
+  width: 50vw;
+  border-radius: 50%;
+  float: left;
+  margin: 5px;
+  /* max-width: 50vw; */
+  min-width: 150px;
+  max-width: 250px;
+  height: auto;
+}
+
+/* .full-page-content img {
   width: 100%;
   border-radius: 50%;
   float: left;
   margin: 5px;
   max-width: 25%;
-  height: auto;
+  height: auto; 
 }
+*/
 
 .bk-plot-wrapper table {
   margin: 0 auto;
