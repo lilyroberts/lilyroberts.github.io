@@ -1,7 +1,7 @@
 body {
   background-color: teal;
   margin: 0;
-  color: darkcyan;
+  /* color: darkcyan; */
   line-height: 1.5;
 }
 
@@ -98,6 +98,22 @@ main {
   position: relative;
   width: fit-content;
   max-width: 800px;
+  /* width: fit-content;
+  height: fit-content; */
+  margin: auto;
+  padding: 1rem;
+  background-color: blanchedalmond;
+  border: 2px solid black;
+  color: black;
+  /* padding: 1rem 1.5rem 1rem 1.5rem; */
+  display: flexbox;
+  box-shadow: 0.5rem 0.5rem black;
+}
+
+.notebook-box {
+  position: relative;
+  width: fit-content;
+  max-width: 1000px;
   /* width: fit-content;
   height: fit-content; */
   margin: auto;
